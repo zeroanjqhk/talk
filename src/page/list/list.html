@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/list/list.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="list-top-menu">
+            <span>
+                <label> 친구 목록 </label>
+            </span>
+            <span>
+                <label for="search" id="list_search">검색</label>
+                <label for="add" id="list_add">친구추가</label>
+            </span>
+        </div>
+        <div class="list_search_list" style="display:none;">
+            <input tyoe="text" placeholder="serach">
+        </div>
+        <div class="list-myfrofile">
+            <span>내 프로필</span>
+            <span>내 프로필</span>
+            <span>상태메시지</span>
+        </div>
+        <div class="list-friends">
+            <ui class="list_ui">
+                <li>
+                    <span>친구 프로필</span>
+                    <span class="list-friends-id">친구 </span>
+                    <span class="list-friends-message">친구 메시지</span>
+                </li>
+              
+            </ui>
+        </div>
+        <div class="list-bottom-menu">
+            <span>친구목록</span>
+            <span class="list-friends-chattingList">채팅목록</span>
+        </div>
+    </div>
+    <script src="/axios.min.js"></script>
+    <script src="../../js/common/common.js"></script>
+     <script src="../../js/list/list.js"></script>
+    
+</body>
+</html>

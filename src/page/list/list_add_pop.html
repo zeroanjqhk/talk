@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/list/list.css">
+</head>
+<body>
+    <div class="list_pop_wrap">
+        <div>
+            <label>
+                ID 검색
+            </label>
+            <input type="text" id="pop_id_search">
+            <input type="button" onclick="pop_list_add()" value="Login">
+        </div>
+        <div>
+            <span class="profile">
+                <img class="image" src="https://placeimg.com/50/50/any" alt="any">
+                <span class="user" id =pop_user>이름</span>
+            </span>
+        </div>
+        <div>
+            
+            <input type="button" onclick="pop_list_insert(this.pop_id_search)" class="pop_id_insert" value="친구등록">
+        </div>
+    </div>
+    
+    <script src="/axios.min.js"></script>
+     <script src="../../js/list/list_add_pop.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/login/login.css">
+</head>
+<body>
+    <form name="login">
+        <div class = login-input>
+
+            <input type="text" name="userid" id="userid" required/>
+            <label for="id">ID</label>
+        </div>
+        <div class = login-input>
+
+            <input type="password" name="userpw" id="userpw" required/>
+            <label for="id">ID</label>
+        </div>
+        <div class ="login-btn">
+            <input type="button" onclick="login_check(this.form)" value="Login">
+        </div>
+        <div class="caption">
+            <a href="insert_user.html">회원가입</a>
+            <a href="forgot_user.html">비밀번호 찾기</a>
+        </div>
+    </form>
+    <script src="/axios.min.js"></script>
+    <script src="../../js/login/login.js"></script>
+
+</body>
+</html>
